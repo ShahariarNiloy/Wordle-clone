@@ -125,3 +125,30 @@ nav h1 {
 #disabled {
   background-color: #3a393c;
 }
+@media screen and (max-width: 550px) {
+  .keyboard {
+    width: 400px;
+    height: 300px;
+    margin-top: 40px;
+  }
+  .key {
+    width: 35px;
+    height: 60px;
+    margin: 3px;
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+    background-color: grey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  .board {
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+  }
+}
